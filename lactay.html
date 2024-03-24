@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng thời trang</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<marquee Behavior="Scrooll" DIRECTION="left" bgcolor="#c0ff3e">
+  <b>🌟 Chào mừng đến với cửa hàng của chúng tôi - Nơi mua sắm không giới hạn! 🛍️ Tận hưởng ưu đãi đặc biệt mỗi ngày! 🌟 </b>
+</marquee>
+<style>
+    body {
+      background-image: url('images/hinhnen1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif; margin: 0;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    display: block;
+    text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Định dạng các chấm dưới slideshow */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    border: none;
+}
+
+/* Định dạng các chấm */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Hiệu ứng fade */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+  </style>
+<body>
+
+    <header>
+        <div class="col_w50">
+            <p class="lc">
+                <i class="fa fa-map-marker-alt">HaNoi: Bắc Từ Liêm - Tây Tựu - 118 Trung Kiên - 0373617025</i>
+            </p>
+            <div class="cart-logo">
+                <img src="images/giohang.jpg" alt="Cart Icon">
+                <span class="cart-count">3</span>
+                <input type="text" name="keyword" id="keyword" placeholder="Tìm Kiếm Sản Phẩm" value="" pattern="^[a-zA-Z0-9]+$">
+            </div>
+        </div>
+        <div id="logo">
+            <img src="images/logo.jpg" alt="">
+        </div>
+        <div>
+          <h1 style="position: relative; top: -100px; color: #FF6eB4;">Thời Trang Cá Tính </h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li>
+                    <a href="">Áo</a>
+                    <ul class="sub-menu">
+                        <li><a href="index.html">Hoodie</a></li>
+                        <li><a href="aophong.html">T-Shirt</a></li>
+                    </ul>
+                </li>
+                <li><a href="quan.html">Quần</a></li>
+                <li>
+                    <a href="">Trang Sức</a>
+                    <ul class="sub-menu">
+                        <li><a href="nhan.html">Nhẫn</a></li>
+                        <li><a href="lactay.html">Lắc Tay</a></li>
+                    </ul>
+                </li>
+                <li><a href="gioithieu.html">Giới Thiệu</a></li>
+                <li>
+                    <a href="">Đăng Nhập/Đăng Ký</a>
+                    <ul class="sub-menu">
+                        <li><a href="dangnhap.html">Đăng Nhập</a></li>
+                        <li><a href="dangky.html">Đăng Ký</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <h1>Danh mục sản phẩm</h1>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="images/hoodie1.jpg" style="width:1300px; height: 500px; ">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="images/hoodie2.jpg" style="width:1300px; height: 500px;">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="images/hoodie3.jpg" style="width:1300px; height: 500px;">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="images/Tshirt1.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Tshirt2.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Tshirt3.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Q1.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Q2.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Q3.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/lactay1.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/lactay2.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/lactay3.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Nhan1.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Nhan2.jpg" style="width:1300px; height: 500px; ">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/Nhan3.jpg" style="width:1300px; height: 500px; ">
+              </div>
+            </div>
+            <br>
+            
+            <div class="dot-container">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Thay đổi hình ảnh mỗi 2 giây
+            }
+            </script>
+    </header>
+        </body>
+    <main>
+        <section class="section1">
+            <h2>Danh mục sản phẩm mới</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="images/lactay1.jpg" alt="ao1">
+                    <h3>Sản Phẩm 1</h3>
+                    <p>Giá: 1.500.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="images/lactay2.jpg" alt="ao2">
+                    <h3>Sản Phẩm 2</h3>
+                    <p>Giá: 1.200.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="images/lactay3.jpg" alt="ap3">
+                    <h3>Sản Phẩm 3</h3>
+                    <p>Giá: 1.200.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <h2>Danh mục sản phẩm bán chạy</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="images/lactay4.jpg" alt="ao4">
+                    <h3>Sản Phẩm 4</h3>
+                    <p>Giá: 800.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="images/lactay5.jpg" alt="ao5">
+                    <h3>Sản Phẩm 5</h3>
+                    <p>Giá: 800.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="images/lactay6.jpg" alt="ao6">
+                    <h3>Sản Phẩm 6</h3>
+                    <p>Giá: 800.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <h2>Danh mục sản phẩm hot</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="images/lactay7.jpg" alt="ao7">
+                    <h3>Sản Phẩm 7</h3>
+                    <p>Giá: 500.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="images/lactay8.jpg" alt="ao8">
+                    <h3>Sản Phẩm 8</h3>
+                    <p>Giá: 500.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="images/lactay9.jpg" alt="ao9">
+                    <h3>Áo 9</h3>
+                    <p>Sản Phẩm: 500.000 VNĐ</p>
+                    <button onclick="window.location.href='http://m.me/100074395909149';">Mua ngay</button>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <h2>Liên hệ</h2>
+            <form action="">
+                <label for="name">Họ và tên</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email: </label>
+                <input for="text" id="email" name="email"><br>
+                <label for="message">Nội dung</label>
+                <input type="text" id="message" name="message"><br>
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+    </main>
+    <div align="center">
+        <h2>Liên hệ với tôi</h2>
+    <a href="https://www.facebook.com/profile.php?id=100074395909149"><img src="images/fb.jpg" alt="facebook" width="80px" height="80px"</a>
+    <a href="https://www.youtube.com/channel/UC5BVBEhAxRxXV38fvn09yrw"><img src="images/youtube.jpg" alt="youtube" width="140px" height="90px"</a>
+    <a href="https://www.instagram.com/dinhquang.ng/"><img src="images/intar.jpg" alt="instagram" width="100px" height="90px"</a>
+    </div>
+    <footer>
+        &copy; 2024 by Nguyễn Đình Quang
+    </footer>
+</body>
+
+</html>
